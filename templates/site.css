@@ -1,0 +1,211 @@
+body
+{
+    background-image: url('images/поле-2.jpg');
+    background-size: cover;
+    width: auto;
+    
+}
+
+header
+{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 9fr;
+    gap: 20px;
+
+}
+
+
+.logo img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 35px;
+}
+nav img{
+    width: 98%;
+    height: 200px;
+}
+nav{
+    background-image: url('images/window_one.jpg') ;
+    
+    border-radius: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0px;
+    p{
+        font-family: Arial, sans-serif;
+        font-size: 26px;
+        text-align:center;
+
+    }
+
+}
+
+
+
+.area
+{
+    margin-left: 9%;
+    margin-right: 9%;
+}
+.ab_site
+{
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    gap: 25px;
+}
+.feedback 
+{
+    border-radius: 35px;
+    background-color: aliceblue;
+    padding-top: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
+
+
+}
+
+.change_back_one
+{
+    background-image:  url('images/ghost.png');
+    border-top-left-radius:35px;
+    border-bottom-left-radius:35px;
+    cursor: pointer;
+    transition:background-image 0.8s ease-out;
+}
+.change_back_one:hover
+{
+    background-image: url('images/back_1.png') ;
+    transition-delay: 0s;
+}
+.change_back_one:not(:hover)
+{
+    transition-delay: 2.5s;
+}
+
+
+.change_back_two
+{
+    background-image:  url('images/ghost.png');
+    cursor: pointer;
+    transition:background-image 0.8s ease-out;
+}
+.change_back_two:hover
+{
+    background-image: url('images/back_2.webp') ;
+    transition-delay: 0s;
+}
+.change_back_two:not(:hover)
+{
+    transition-delay: 2.5s;
+}
+
+
+.change_back_thr
+{
+    background-image:  url('images/ghost.png');
+    cursor: pointer;
+    transition:background-image 0.8s ease-out;
+}
+.change_back_thr:hover
+{
+    background-image: url('images/back_3.webp') ;
+    transition-delay: 0s;
+}
+.change_back_thr:not(:hover)
+{
+    transition-delay: 2.5s;
+}
+
+.change_back_fo
+{
+    background-image:  url('images/ghost.png');
+    cursor: pointer;
+    border-top-right-radius:35px;
+    border-bottom-right-radius:35px;
+    transition:background-image 0.8s ease-out;
+}
+.change_back_fo:hover
+{
+    background-image: url('images/back_4.jpg') ;
+    transition-delay: 0s;
+}
+.change_back_fo:not(:hover)
+{
+    transition-delay: 2.5s;
+}
+
+
+
+.site_slogan
+{
+    border-radius: 35px;
+    
+    height: auto;
+    
+    background-image: url('images/info_back.webp');
+    
+    
+}
+.site_slogan p
+{
+    font-size: 24px;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-bottom: 2%;
+    text-indent: 4%
+}
+.site_slogan h2
+{
+    padding-top: 1%;
+    text-align: center;
+    margin-left: 6%;
+    margin-right: 6%;
+    font-family: 'Playfair Display', serif;
+}
+
+.site_slogan h3
+{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.com
+{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+textarea {
+    width: 70%;
+    height: 10%;
+    margin-top:2%;
+    border: 1px solid #000000;
+    border-radius: 9px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(228, 252, 255);
+    resize: none;
+}
+
+button {
+    background-color: #3dec43;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 2.1s;
+}
+
+button:hover {
+    background-color: #14571b;
+    
+}
+.catalog
+{
+    
+}
